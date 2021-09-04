@@ -12,7 +12,7 @@ public class APIController {
     
     @RequestMapping(value = "/getInfo/{name}",method = RequestMethod.GET)
     public String getInfo(@PathVariable String name){
-        return "Hi ," + name ;
+        return "Hi Reactor ," + name ;
     }
 
 
